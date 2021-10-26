@@ -11,7 +11,7 @@ type TypeFile = {
 };
 
 const MainPage: React.FC = () => {
-  let [username, setUsername] = useState<string>("");
+  const [username, setUsername] = useState<string>("");
   const [repos, setRepos] = useState([]);
   const [page, setPage] = useState<number>(1);
   const [files, setFiles] = useState([]);
